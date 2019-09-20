@@ -22,6 +22,8 @@ let s:guibg_highlight="#fff1aa"
 let s:ctermbg_highlight="229"
 let s:guibg_highlight_3="#90ee90"
 let s:ctermbg_highlight_3="120"
+let s:guibg_light="#ddddd8"
+let s:ctermbg_light="253"
 
 " String constants - so they stand out
 let s:guifg_string="#0000ff"
@@ -47,8 +49,6 @@ let s:guibg_powerline_inactive="#666666"
 let s:ctermbg_powerline_inactive="241"
 
 " Not used yet
-let s:guibg_light="#ddddd8"
-let s:ctermbg_light="253"
 let s:guibg_highlight_2="#e0ffff" " LightCyan
 let s:guibg_highlight_dim="#eeeee8"
 
@@ -82,4 +82,4 @@ exec 'highlight IncSearch guifg=' . s:guifg . ' ctermfg=' . s:ctermfg . ' guibg=
 exec 'highlight Search guifg=' . s:guifg . ' ctermfg=' . s:ctermfg . ' guibg=' . s:guibg_highlight_3 . ' ctermbg=' . s:ctermbg_highlight_3 . ' gui=italic cterm=NONE'
 exec 'highlight Visual guifg=' . s:guifg . ' ctermfg=' . s:ctermfg . ' guibg=' . s:guibg_highlight . ' ctermbg=' . s:ctermbg_highlight . ' gui=NONE cterm=NONE'
 exec 'highlight StatusLine guibg=' . s:guibg_light . ' ctermbg=' . s:ctermbg_light . ' guifg=' . s:guifg . ' ctermfg=' . s:ctermfg . ' gui=bold cterm=bold'
-exec 'highlight StatusLineNC guibg=' . s:guibg_light . ' ctermbg=' . s:ctermbg_light . ' guifg=' . s:guibg_light . ' ctermfg=' . s:ctermbg_light . ' gui=NONE cterm=NONE'
+exec 'highlight StatusLineNC guibg=' . s:guibg_light . ' ctermbg=' . s:ctermbg_light . ' guifg=' . s:guifg_slight_dim . ' ctermfg=' . s:ctermfg_light . ' gui=NONE cterm=NONE'
