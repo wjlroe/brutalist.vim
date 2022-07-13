@@ -12,8 +12,7 @@ let s:guifg_dim="#585858"
 let s:ctermfg_dim="240"
 let s:guifg_slight_dim="#b3b3b3"
 let s:ctermfg_slight_dim="249"
-let s:guifg_light="#ddddd8"
-let s:ctermfg_light="253"
+let s:ctermfg_light="253" " #dadada
 
 " Background colors
 let s:guibg="#fffff8"
@@ -33,24 +32,15 @@ let s:ctermfg_string="12"
 let s:guifg_cursor="#f5f5f5"
 let s:ctermfg_cursor="255"
 
-" Parentheses lkjlskdjf
+" Parentheses
 let s:guifg_paren_match="#0000ff"
 let s:ctermfg_paren_match="12"
-
-" let s:guibg_status_active="#ddddd8"
-" let s:ctermbg_status_active="253"
-" let s:guibg_status_inactive="#666666"
-" let s:ctermbg_status_inactive="241"
 
 " powerline
 let s:guibg_powerline_active="#383838"
 let s:ctermbg_powerline_active="237"
 let s:guibg_powerline_inactive="#666666"
 let s:ctermbg_powerline_inactive="241"
-
-" Not used yet
-let s:guibg_highlight_2="#e0ffff" " LightCyan
-let s:guibg_highlight_dim="#eeeee8"
 
 " TODO: TODO highlight? (FIXME etc.)
 " TODO: Diffs
