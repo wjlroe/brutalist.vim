@@ -26,7 +26,7 @@ let s:ctermbg_light="253"
 
 " String constants - so they stand out
 let s:guifg_string="#0000ff"
-let s:ctermfg_string="12"
+let s:ctermfg_string="21"
 
 " Cursor color, off-white
 let s:guifg_cursor="#f5f5f5"
